@@ -130,53 +130,122 @@
 
             <!-- COLUMNA FORMULARIO: Mobile Optimized -->
             <div class="w-full max-w-md mx-auto lg:mx-0">
-                <div class="bg-white p-8 lg:p-10 rounded-[2.5rem] shadow-[0_20px_50px_rgba(51,96,239,0.15)] border border-slate-50 relative overflow-hidden">
-                    <!-- Detalle visual en el form -->
-                    <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-[#3360EF]/10 to-transparent rounded-bl-full -z-0"></div>
+    <div class="bg-white rounded-3xl shadow-2xl shadow-blue-100/50 border border-slate-100 overflow-hidden transition-all duration-300 hover:shadow-blue-200/50">
+        <!-- Accent Top Bar -->
+        <div class="h-2 w-full bg-gradient-to-r from-[#3360EF] to-[#508fff]"></div>
+
+        <div class="p-8 lg:p-10">
+            <!-- Header Section -->
+            <div class="mb-8">
+                <h2 class="text-2xl lg:text-3xl font-extrabold text-slate-900 tracking-tight mb-2">
+                    Transforma tu negocio
+                </h2>
+                <p class="text-slate-500 text-sm lg:text-base leading-relaxed">
+                    Completa los datos para comenzar la configuración de tu tienda.
+                </p>
+            </div>
+
+            <!-- MailerLite Form Integration -->
+            <div id="mlb2-37508556" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-37508556">
+                <form class="ml-block-form space-y-5" action="https://assets.mailerlite.com/jsonp/2134335/forms/180138883840738826/subscribe" data-code="" method="post" target="_blank">
                     
-                    <div class="relative z-10">
-                        <h3 class="text-2xl font-bold text-slate-900 mb-2">Solicitar Cotización</h3>
-                        <p class="text-slate-500 mb-8 text-sm">Analizamos tu marca para proyectar tu crecimiento digital.</p>
-                        
-                        <form action="#" class="space-y-5">
-                            <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Nombre Completo</label>
-                                <input type="text" placeholder="Ej. Juan Pérez" class="w-full px-5 py-4 bg-slate-50 border-transparent rounded-2xl focus:bg-white focus:ring-2 focus:ring-[#3360EF] focus:border-transparent transition-all outline-none text-slate-700 placeholder:text-slate-400">
-                            </div>
+                    <!-- Name Field -->
+                    <div class="ml-form-fieldRow">
+                        <div class="ml-field-group ml-field-name ml-validate-required">
+                            <label class="text-sm font-bold text-gray-700 block mb-2">Nombre completo</label>
+                            <input aria-label="name" aria-required="true" type="text" class="bg-white border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-[#3360EF] focus:border-[#3360EF] block w-full p-3 shadow-sm outline-none transition-all" name="fields[name]" placeholder="Tu nombre" autocomplete="given-name">
+                        </div>
+                    </div>
 
-                            <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Email Corporativo</label>
-                                <input type="email" placeholder="juan@empresa.com" class="w-full px-5 py-4 bg-slate-50 border-transparent rounded-2xl focus:bg-white focus:ring-2 focus:ring-[#3360EF] focus:border-transparent transition-all outline-none text-slate-700 placeholder:text-slate-400">
-                            </div>
+                    <!-- Phone Field -->
+                    <div class="ml-form-fieldRow">
+                        <div class="ml-field-group ml-field-phone ml-validate-required">
+                            <label class="text-sm font-bold text-gray-700 block mb-2">Numero de wpp</label>
+                            <input aria-label="phone" aria-required="true" type="text" class="bg-white border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-[#3360EF] focus:border-[#3360EF] block w-full p-3 shadow-sm outline-none transition-all" name="fields[phone]" placeholder="+52 ..." autocomplete="tel">
+                        </div>
+                    </div>
 
-                            <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Tu Sitio Web (Opcional)</label>
-                                <input type="url" placeholder="www.tu-marca.com" class="w-full px-5 py-4 bg-slate-50 border-transparent rounded-2xl focus:bg-white focus:ring-2 focus:ring-[#3360EF] focus:border-transparent transition-all outline-none text-slate-700 placeholder:text-slate-400">
-                            </div>
+                    <!-- Email Field -->
+                    <div class="ml-form-fieldRow">
+                        <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                            <label class="text-sm font-bold text-gray-700 block mb-2">Correo Electrónico</label>
+                            <input aria-label="email" aria-required="true" type="email" class="bg-white border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-[#3360EF] focus:border-[#3360EF] block w-full p-3 shadow-sm outline-none transition-all" name="fields[email]" placeholder="email@ejemplo.com" autocomplete="email">
+                        </div>
+                    </div>
 
-                            <div>
-                                <label class="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 ml-1">Presupuesto estimado</label>
-                                <select class="w-full px-5 py-4 bg-slate-50 border-transparent rounded-2xl focus:bg-white focus:ring-2 focus:ring-[#3360EF] focus:border-transparent transition-all outline-none text-slate-700 appearance-none cursor-pointer">
-                                    <option value="">Selecciona un rango</option>
-                                    <option value="1k-3k">$1,000 - $3,000</option>
-                                    <option value="3k-10k">$3,000 - $10,000</option>
-                                    <option value="10k+">$10,000+</option>
-                                </select>
-                            </div>
+                    <!-- Textarea Field -->
+                    <div class="ml-form-fieldRow ml-last-item">
+                        <div class="ml-field-group ml-field-que_productos_o_servicios_venderas_con_tu_tienda_online ml-validate-required">
+                            <label class="text-sm font-bold text-gray-700 block mb-2">¿Qué productos o servicios venderás?</label>
+                            <textarea class="bg-white border border-gray-200 text-gray-900 text-sm rounded-xl focus:ring-[#3360EF] focus:border-[#3360EF] block w-full p-3 shadow-sm outline-none transition-all min-h-[100px]" name="fields[que_productos_o_servicios_venderas_con_tu_tienda_online]" aria-label="que_productos_o_servicios_venderas_con_tu_tienda_online" aria-required="true" maxlength="255" placeholder="Cuéntanos un poco sobre tu proyecto..."></textarea>
+                        </div>
+                    </div>
 
-                            <button type="submit" class="w-full group relative flex items-center justify-center gap-3 bg-[#3360EF] hover:bg-[#284ecc] text-white font-bold py-5 rounded-2xl transition-all duration-300 shadow-lg shadow-blue-500/30 overflow-hidden">
-                                <span class="relative z-10">Empezar Transformación</span>
-                                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></div>
-                            </button>
-                        </form>
-                        
-                        <p class="mt-6 text-center text-xs text-slate-400 italic">
-                            Respuesta garantizada en menos de 24 horas hábiles.
-                        </p>
+                    <!-- Policy Checkbox -->
+                    <div class="ml-form-checkboxRow ml-validate-required flex items-start gap-3 pt-2">
+                        <label class="relative flex items-center cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 border-2 border-gray-300 rounded-md text-[#3360EF] focus:ring-[#3360EF] transition-all cursor-pointer">
+                        </label>
+                        <div class="label-description text-xs text-slate-500 leading-snug">
+                            <p>He leído y acepto la <a href="#" class="text-[#3360EF] font-semibold hover:underline">Política de privacidad</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="ml-form-embedSubmit pt-4">
+                        <button type="submit" class="bg-[#3360EF] text-white rounded-xl hover:bg-[#508fff] transition-all w-full p-4 font-bold shadow-lg shadow-blue-200 text-base flex items-center justify-center gap-2 group">
+                            <span>Empezar Transformación</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg>
+                        </button>
+                        <button disabled="disabled" style="display: none;" type="button" class="loading w-full p-4 bg-slate-100 text-slate-400 rounded-xl font-bold cursor-not-allowed">
+                            <div class="ml-form-embedSubmitLoad inline-block w-4 h-4 border-2 border-slate-300 border-t-slate-600 rounded-full animate-spin mr-2"></div>
+                            Procesando...
+                        </button>
+                    </div>
+
+                    <input type="hidden" name="ml-submit" value="1">
+                    <input type="hidden" name="anticsrf" value="true">
+                </form>
+
+                <!-- Success State (hidden by default) -->
+                <div class="ml-form-successBody row-success" style="display: none">
+                    <div class="ml-form-successContent text-center py-10">
+                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                        <h4 class="text-xl font-bold text-slate-900 mb-2">¡Registro Exitoso!</h4>
+                        <p class="text-slate-500">Estamos redirigiéndote para continuar el proceso.</p>
                     </div>
                 </div>
             </div>
+        </div>
+        
+        <!-- Footer Info -->
+        <div class="bg-slate-50 p-4 border-t border-slate-100">
+            <p class="text-center text-slate-400 text-[10px] uppercase tracking-widest font-bold">
+                🔒 Encriptación SSL de 256 bits
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function ml_webform_success_37508556() {
+        try {
+            window.top.location.href = 'https://thisoft-core.github.io/pagina-de-gracias-y-de-que-le-vamos-a-mandar-la-cotizaci%C3%B3n%20(1).html';
+        } catch (e) {
+            window.location.href = 'https://thisoft-core.github.io/pagina-de-gracias-y-de-que-le-vamos-a-mandar-la-cotizaci%C3%B3n%20(1).html';
+        }
+    }
+</script>
+<script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
+<script>
+    fetch("https://assets.mailerlite.com/jsonp/2134335/forms/180138883840738826/takel")
+</script>
         </div>
     </div>
 
